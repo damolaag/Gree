@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin:0;
+  }
+
+  .logo{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  .title{
+    margin:auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    color: blue;
+    letter-spacing: 5px;
+  }
+
+  .sub{
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .list{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+
+ 
+  ul >li{
+    padding: 7px;
+    margin: 0, auto;
+  }
+  .list1{
+    width: 40%;
+    margin-left: 40px;
+    padding: 5px;
+    justify-content: center;
+    letter-spacing: 3px;
+  }
+
+  .list2{
+    width: 40%;
+    margin-right: 20px;
+    padding: 10px;
+    letter-spacing: 5px;
+  }
+
+  .heading{
+    color: orange;
+  }
+
+  .pre{
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+    letter-spacing: 3px;
+  }
+
+  .end{
+    width: 70%;
+    margin-left: 35px;
+    margin-bottom: 5px;
+  }
+  .descript{
+    padding: 5px;
+    border:5px solid blue;
+    border-radius: 5px;
+    letter-spacing: 3px;
+  }
