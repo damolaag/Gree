@@ -124,12 +124,39 @@
     .title h2{
       font-size:small
     }
+    .sub{
+      height: 300px;
+      margin-right: 2rem;
+      margin-left: 2rem;
+    }
+    .gree{
+      height:300px;
+      width: 100%;
+      
+    }
     .end{
       font-size: small;
-
       margin-left: 4rem;
+      margin-right: 4rem;
     }
     footer{
       font-size: small;
     }
+  }
+
+  @media screen and (max-width:768px) {
+    .end{
+     margin-right: 10px;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .end{
+     margin-left: 5rem;
+    }
+    .sub{
+      width: 100%;
+      margin:0%
+    }
+  
   }
