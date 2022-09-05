@@ -1,162 +1,180 @@
 *{
-    padding:0;
-    margin:0;
-  }
+  padding:0;
+  margin:0;
+}
 
-  body{
-    background-color: whitesmoke;
-  }
-
-
-  .logo{
-    margin: auto;
-    width: 40%;
-    text-align: center;
-    
-  }
+body{
+  background-color: whitesmoke;
+}
 
 
+.logo{
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  
+}
+
+
+.title{
+  margin:auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  color: blue;
+  letter-spacing: 5px;
+}
+
+
+.sub{
+  margin-left: 7rem;
+  margin-right: 7rem;
+  height: 500px;
+  background-color:black ;
+} 
+
+.gree{
+  margin: 0, 10rem;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+}
+
+
+ul >li{
+  padding: 7px;
+  margin: 0, auto;
+}
+.list1{
+  width: 40%;
+  margin: 0, auto;
+  padding: 5px;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+.list2{
+  width: 40%;
+  margin-right: 20px;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.heading{
+  color: orange;
+}
+
+.pre{
+  padding: 5px;
+  color: white;
+  background-color: blue;
+  border-radius: 4px;
+  letter-spacing: 3px;
+}
+
+.end{
+  width: 70%;
+  margin-left: 8rem;
+  margin-left: 8rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.descript{
+  padding: 5px;
+  border:5px solid blue;
+  border-radius: 5px;
+  letter-spacing: 3px;
+}
+
+footer{
+  display: flex;
+  margin-top: 40px;
+  color: grey;
+  justify-content: space-evenly;
+}
+
+footer p{
+  padding: 5px;
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width: 480px) {
   .title{
-    margin:auto;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
-    color: blue;
-    letter-spacing: 5px;
-  }
-
-  @media screen and (max-width: 480px) {
-    .title{
-      letter-spacing: normal;
-    }    
-    .title{
-      font-size:small
-    }
-  }
-
-
-  .sub{
-    margin-left: 7rem;
-    margin-right: 7rem;
-    height: 500px;
-    background-color:black ;
-  } 
-
-  .gree{
-    margin: 0, 10rem;
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-  }
-
-  .list{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 5px;
-  }
-
- 
-  ul >li{
-    padding: 7px;
-    margin: 0, auto;
+    letter-spacing: normal;
+  }    
+  .title{
+    font-size:small
   }
   .list1{
-    width: 40%;
-    margin: 0, auto;
-    padding: 5px;
-    justify-content: center;
-    letter-spacing: 2px;
+    letter-spacing: normal;
   }
-
   .list2{
-    width: 40%;
-    margin-right: 20px;
-    padding: 10px;
-    letter-spacing: 2px;
+    letter-spacing: normal;
+  }      
+  .title h2{
+    font-size:small
   }
-
-  .heading{
-    color: orange;
+  .sub{
+    height: 300px;
+    margin-right: 3rem;
+    margin-left: 3rem;
   }
-
-  .pre{
-    padding: 5px;
-    color: white;
-    background-color: blue;
-    border-radius: 4px;
-    letter-spacing: 3px;
+  .gree{
+    height:300px;
+    width: 100%;
+    
   }
-
   .end{
-    width: 70%;
-    margin-left: 10rem;
-    margin-left: 10rem;
-    margin-top: 2rem;
-    justify-content: center;
+    padding: 0%;
+    justify-content: center;   
+    text-align: center; 
   }
-  .descript{
-    padding: 5px;
-    border:5px solid blue;
-    border-radius: 5px;
-    letter-spacing: 3px;
-  }
-
   footer{
-    display: flex;
-    margin-top: 40px;
-    color: grey;
-    justify-content: space-evenly;
+    font-size: small;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .end{
+   margin-right: 10px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .title{
+    letter-spacing: normal;
+  }    
+  .title{
+    font-size:small
+  }
+  .list1{
+    letter-spacing: normal;
+    font-size: small;
+  }
+  .list2{
+    letter-spacing: normal;
+    font-size: small;
+  } 
+  .end{
+   margin-left: 4.5rem;
+   font-size: small;
+  }
+  .pre{
+    font-size: small;
+  }
+  .sub{
+    width: 100%;
+    margin:0%
+  }
+  footer{
+    font-size: small;
   }
 
-  footer p{
-    padding: 5px;
-    letter-spacing: 3px;
-  }
-
-  @media screen and (max-width: 480px) {
-    .list1{
-      letter-spacing: normal;
-    }
-    .list2{
-      letter-spacing: normal;
-    }      
-    .title h2{
-      font-size:small
-    }
-    .sub{
-      height: 300px;
-      margin-right: 2rem;
-      margin-left: 2rem;
-    }
-    .gree{
-      height:300px;
-      width: 100%;
-      
-    }
-    .end{
-      font-size: small;
-      margin-left: 4rem;
-      margin-right: 4rem;
-    }
-    footer{
-      font-size: small;
-    }
-  }
-
-  @media screen and (max-width:768px) {
-    .end{
-     margin-right: 10px;
-    }
-  }
-
-  @media screen and (max-width:600px) {
-    .end{
-     margin-left: 5rem;
-    }
-    .sub{
-      width: 100%;
-      margin:0%
-    }
-  
-  }
+}
